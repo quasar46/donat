@@ -1,0 +1,16 @@
+header.header
+    .container
+        .header__wrapper
+            a(href="index.html").logo.header__logo
+                img(src="images/logo.png" alt="")
+            nav.header__nav
+                a(href="main-catalog.html") Магазин
+                a(href="partners.html") Партнерам
+                a(href="") Кофейни
+                a(href="articles.html") Наша жизнь
+                a(href="") Производство
+                a.basket(href="basket.html")
+                    span Корзина
+            .burger(hidden)
+
+    include mobile-menu.pug
