@@ -35,7 +35,7 @@
                 color: $color-text;
                 margin-bottom: 30px;
                 @media (max-width: 1919px) {
-                    margin-bottom: 19px;
+                    margin-bottom: 15px;
                 }
             }
             a {
@@ -89,7 +89,14 @@
             }
             @media (max-width: 767px) {
                 text-align: center;
+                a {
+                    text-align: center;
+                    display: inline;
+                }
             }
+        }
+        &.footer__contacts {
+            margin-top: 0;
         }
         @media (max-width: 1919px) {
             margin-right: 0;
@@ -156,7 +163,7 @@
                 &.youtube {
                     max-width: 25px;
                 }
-                @media(max-width: 768px) {
+                @media (max-width: 768px) {
                     max-height: 16px;
                     display: flex;
                     align-items: center;
@@ -212,7 +219,7 @@
                 &.youtube {
                     max-width: 25px;
                 }
-                @media(max-width: 320px) {
+                @media (max-width: 320px) {
                     align-items: center;
                     display: flex;
                 }

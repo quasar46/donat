@@ -83,6 +83,16 @@ $(document).ready(function () {
     })
 })
 
+$(document).ready(function () {
+    $(function () {
+        $("#top").bind('click', function (e) {
+            e.preventDefault();
+            $('body,html').animate({ scrollTop: 0 }, 400);
+        });
+    });
+})
+
+
 // tabs
 function openTab(evt, tabName) {
     var i, tabcontent, tablinks;
@@ -99,3 +109,4 @@ function openTab(evt, tabName) {
 }
 
 document.getElementById("defaultOpen").click();
+

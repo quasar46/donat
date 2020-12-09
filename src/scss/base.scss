@@ -7,6 +7,7 @@
 
 html {
 	box-sizing: border-box;
+	background-color: #2b2b2b;
 }
 
 body {
@@ -16,6 +17,16 @@ body {
 	font-weight: 400;
 	line-height: 1.2;
 	overflow-x: hidden;
+}
+
+main {
+	// margin-top: 180px;
+	@media (max-width: 1919px) {
+		// margin-top: 145px;
+	}
+	@media (max-width: 1023px) {
+		margin-top: 130px;
+	}
 }
 
 .container {
